@@ -1,4 +1,16 @@
-The PreTeXt Guide
+Welcome to Jonathan Trans's UC Davis Linear Algebra Laboratory Coursework Website. \
+We are excited to see you here! 😊 
+
+I am currently working under UC Davis Professor Ali A. Dad-del. We are restructuring the MAT22AL (Linear Algebra Computer Laboratory) coursework website through front-end development tools including: PreTexT, XML, LaTex, HTML, CSS, and Python. The new website is polished with a pleasurable user interface, alongside with new multitasking options that will eventually be able to connect via UC Davis lab username and sign-in options. Throughout this process, I built web applications in an agile and iterative way using agile methodologies and Git/Github as a full stack developer. 
+
+Tools: HTML, CSS, Git/Github, Python, PreText, XML, and LaTeX 👻
+
+# Link(s) : 
+LinkedIn: https://www.linkedin.com/in/jonathantrans/ \
+Personal Website: https://jonathantrans.github.io/ \
+Project Website: TBA \
+
+The PreTeXt Guide 😎
 =================
 
 PDF and HTML versions of this guide are available at the [PreTeXt](https://pretextbook.org) site in the Documentation area.

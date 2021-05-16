@@ -8,7 +8,7 @@ Tools: HTML, CSS, Git/Github, Python, PreText, XML, and LaTeX 👻
 # Link(s) : 
 LinkedIn: https://www.linkedin.com/in/jonathantrans/ \
 Personal Website: https://jonathantrans.github.io/ \
-Project Website: TBA \
+Project Website: TBA
 
 The PreTeXt Guide 😎
 =================

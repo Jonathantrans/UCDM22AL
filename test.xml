@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pretext>
+
+    <docinfo>
+        <macros>
+        \newcommand{\doubler}[1]{2#1}
+        </macros>
+    </docinfo>
+
+    <book xml:id="minimal">
+        <title>MAT 22AL: Linear Algebra Computer Laboratory</title>
+        <frontmatter>
+            <docinfo>
+            </docinfo>
+            <titlepage>
+                <author>
+                    <personname>Professor Ali A. Dad-del</personname>
+                    <institution>University of California - Davis</institution>
+                    <email>daddel@math.ucdavis.edu</email>
+                </author>
+                <author>
+                    <personname>TA Zhiqian Du</personname>
+                    <institution>University of California - Davis</institution>
+                    <email>simdu@ucdavis.edu</email>
+                </author>
+                <date><today /></date>
+            </titlepage>
+
+            <abstract>
+                <p><alert>MAT 22AL</alert> (Computer Laboratory For Linear Algebra) is a one-unit course for students enrolled in <alert>MAT 22A</alert> (Elementary Linear Algebra). The labs offered in this course are designed to help linear algebra students in two areas: First, the use of computers in computations related to linear algebra. Second, enhance students’ understanding of basic concepts and ideas of linear algebra for MAT 22A students. These labs are not self-contained. They should be used as a supplement for an Elementary Linear Algebra course. For each lab, there is a list of prerequisite topics, which need to be studied before doing the labs using any standard textbook. A little basic knowledge about working with computers is helpful. The labs are designed to use <alert>MATLAB</alert>. No familiarity with MATLAB is required. MATLAB command will be introduced gradually.</p>
+            </abstract>
+
+                <title>Introduction</title>
+
+
+        </frontmatter>
+        <frontmatter>
+            <docinfo>
+            </docinfo>
+
+            <abstract>
+                <image source="image/coursepage/course.png" width="100%">
+                <description>Course</description>
+                </image>
+                <image source="image/coursepage/course2.png" width="100%">
+                <description>Course2</description>
+                </image>
+            </abstract>
+
+                <title>Course Information</title>
+        </frontmatter>
+        <introduction>
+            <p><b>MAT 22AL</b> (Computer Laboratory For Linear Algebra) is a one-unit course for students enrolled in <b>MAT 22A</b> (Elementary Linear Algebra). The labs offered in this course are designed to help linear algebra students in two areas: First, the use of computers in computations related to linear algebra. Second, enhance students’ understanding of basic concepts and ideas of linear algebra for MAT 22A students. These labs are not self-contained. They should be used as a supplement for an Elementary Linear Algebra course. For each lab, there is a list of prerequisite topics, which need to be studied before doing the labs using any standard textbook. A little basic knowledge about working with computers is helpful. The labs are designed to use <b>MATLAB</b>. No familiarity with MATLAB is required. MATLAB command will be introduced gradually.</p>
+        </introduction>
+
+        <chapter xml:id="LAB1">
+            <title>LAB 1</title>
+            <abstract>
+                <p>Welcome to <alert>Lab 1</alert> of the Linear Algebra Computer Laboratory course. Below are a few resources to look at in order to start and complete this lab. </p>
+            </abstract>
+            <section>
+            <title>Notes</title>
+            <abstract>
+                <image source="image/lab1/section_1_1.png" width="100%">
+                <description>notes</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Content and Objectives</title>
+            <abstract>
+                <image source="image/lab1/section_1_2.png" width="100%">
+                <description>Content</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Starting Your Work</title>
+            <abstract>
+                <image source="image/lab1/section_1_3.png" width="100%">
+                <description>Work</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Entering Vectors</title>
+            <abstract>
+                <image source="image/lab1/section_1_4.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Entering Matrices</title>
+            <abstract>
+                <image source="image/lab1/section_1_5.png" width="100%">
+                <description>EnteringMatrices</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Combining Commands</title>
+            <abstract>
+                <image source="image/lab1/section_1_6.png" width="100%">
+                <description>Course</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Working with Entries</title>
+            <abstract>
+                <image source="image/lab1/section_1_7.png" width="100%">
+                <description>WorkingwithEntries</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Diagonal Matrices</title>
+            <abstract>
+                <image source="image/lab1/section_1_8.png" width="100%">
+                <description>DiagonalMatrices</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Constructing Large Matrices</title>
+            <abstract>
+                <image source="image/lab1/section_1_9.png" width="100%">
+                <description>LargeMatrices</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Creating Vectors (1)</title>
+            <abstract>
+                <image source="image/lab1/section_1_10.png" width="100%">
+                <description>Course</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Creating Vectors (2)</title>
+            <abstract>
+                <image source="image/lab1/section_1_11.png" width="100%">
+                <description>Course</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Creating Vectors (3)</title>
+            <abstract>
+                <image source="image/lab1/section_1_12.png" width="100%">
+                <description>Course</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Row Operations</title>
+            <abstract>
+                <image source="image/lab1/section_1_13.png" width="100%">
+                <description>Course</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Saving, Editing and Submitting your work</title>
+            <abstract>
+                <image source="image/lab1/section_1_14.png" width="100%">
+                <description>Course</description>
+                </image>
+            </abstract>
+            </section>
+        </chapter>
+
+        <chapter xml:id="LAB2">
+            <title>LAB 2</title>
+            <abstract>
+                <p>Welcome to <alert>Lab 2</alert> of the Linear Algebra Computer Laboratory course. Below are a few resources to look at in order to start and complete this lab. </p>
+            </abstract>
+            <section>
+            <title>Notes</title>
+            <abstract>
+                <image source="image/lab2/section_2_1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Content and Objectives</title>
+            <abstract>
+                <image source="image/lab2/section_2_2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Starting Your Work</title>
+            <abstract>
+                <image source="image/lab2/section_2_3.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Format</title>
+            <abstract>
+                <image source="image/lab2/section_2_4.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Extracting Triangular Matrices</title>
+            <abstract>
+                <image source="image/lab2/section_2_5.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Matrix Operations</title>
+            <abstract>
+                <image source="image/lab2/section_2_6.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Triangular Matrices</title>
+            <abstract>
+                <image source="image/lab2/section_2_7.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Answer the Following Questions</title>
+            <abstract>
+                <image source="image/lab2/section_2_8.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Diagonal Matrices</title>
+            <abstract>
+                <image source="image/lab2/section_2_9.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Symmetric and Skew Symmetric Matrices</title>
+            <abstract>
+                <image source="image/lab2/section_2_10.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Answer the Following Questions (2)</title>
+            <abstract>
+                <image source="image/lab2/section_2_11.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Solve the Linear System</title>
+            <abstract>
+                <image source="image/lab2/section_2_12.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Using MATLAB's Command X=A \ b to Solve a Linear System</title>
+            <abstract>
+                <image source="image/lab2/section_2_13.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab2/section_2_13.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Saving, Editing and Submitting your work</title>
+            <abstract>
+                <image source="image/lab2/section_2_14.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+        </chapter>
+
+        <chapter xml:id="LAB3">
+            <title>LAB 3</title>
+            <abstract>
+                <p>Welcome to <alert>Lab 3</alert> of the Linear Algebra Computer Laboratory course. Below are a few resources to look at in order to start and complete this lab. </p>
+            </abstract>
+            <section>
+            <title>Notes</title>
+            <abstract>
+                <image source="image/lab3/section_3_1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Content and Objectives</title>
+            <abstract>
+                <image source="image/lab3/section_3_2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Starting Your Work</title>
+            <abstract>
+                <image source="image/lab3/section_3_3.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Plotting Graphs</title>
+            <abstract>
+                <image source="image/lab3/section_3_4.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab3/section_3_4.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>M-Files</title>
+            <abstract>
+                <image source="image/lab3/section_3_5.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Linear Transformations</title>
+            <abstract>
+                <image source="image/lab3/section_3_6.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab3/section_3_6.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Matrix Multiplication</title>
+            <abstract>
+                <image source="image/lab3/section_3_7.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab3/section_3_7.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Saving, Editing and Submitting your work</title>
+            <abstract>
+                <image source="image/lab3/section_3_8.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+        </chapter>
+
+        <chapter xml:id="LAB4">
+            <title>LAB 4</title>
+            <abstract>
+                <p>Welcome to <alert>Lab 4</alert> of the Linear Algebra Computer Laboratory course. Below are a few resources to look at in order to start and complete this lab. </p>
+            </abstract>
+            <section>
+            <title>Notes</title>
+            <abstract>
+                <image source="image/lab4/section_4_1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Content and Objectives</title>
+            <abstract>
+                <image source="image/lab4/section_4_2.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab4/section_4_2.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Starting Your Work</title>
+            <abstract>
+                <image source="image/lab4/section_4_3.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Working with MATLAB</title>
+            <abstract>
+                <image source="image/lab4/section_4_4.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab4/section_4_4.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Using Gauss-Jordan Elimination to Calculate</title>
+            <abstract>
+                <image source="image/lab4/section_4_5.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>LU Factorization</title>
+            <abstract>
+                <image source="image/lab4/section_4_6.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab4/section_4_6.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab4/section_4_6.3.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab4/section_4_6.4.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Saving, Editing and Submitting your work</title>
+            <abstract>
+                <image source="image/lab4/section_4_7.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+        </chapter>
+
+        <chapter xml:id="LAB5">
+            <title>LAB 5</title>
+            <abstract>
+                <p>Welcome to <alert>Lab 5</alert> of the Linear Algebra Computer Laboratory course. Below are a few resources to look at in order to start and complete this lab. </p>
+            </abstract>
+            <section>
+            <title>Notes and Objectives</title>
+            <abstract>
+                <image source="image/lab5/section_5_1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Starting Your Work</title>
+            <abstract>
+                <image source="image/lab5/section_5_2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Background Linear Combinations</title>
+            <abstract>
+                <image source="image/lab5/section_5_3.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab5/section_5_3.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Using MATLAB</title>
+            <abstract>
+                <image source="image/lab5/section_5_4.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Background Linear Combinations (2)</title>
+            <abstract>
+                <image source="image/lab5/section_5_5.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab5/section_5_5.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Spanning Set of a Vector Space</title>
+            <abstract>
+                <image source="image/lab5/section_5_6.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>MATLAB Exercise</title>
+            <abstract>
+                <image source="image/lab5/section_5_7.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Linearly Independent Vectors</title>
+            <abstract>
+                <image source="image/lab5/section_5_8.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>MATLAB Exercise (2)</title>
+            <abstract>
+                <image source="image/lab5/section_5_9.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab5/section_5_9.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>BASIS and MATLAB Exercise (3)</title>
+            <abstract>
+                <image source="image/lab5/section_5_10.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>MATLAB Exercise (4)</title>
+            <abstract>
+                <image source="image/lab5/section_5_11.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab5/section_5_11.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab5/section_5_11.3.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Saving, Editing and Submitting your work</title>
+            <abstract>
+                <image source="image/lab5/section_5_12.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+        </chapter>
+
+        <chapter xml:id="LAB6">
+            <title>LAB 6</title>
+            <abstract>
+                <p>Welcome to <alert>Lab 6</alert> of the Linear Algebra Computer Laboratory course. Below are a few resources to look at in order to start and complete this lab. </p>
+            </abstract>
+            <section>
+            <title>Notes</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>Content and Objectives</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>Starting LAB</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>Instruction</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>Saving, Editing and Submitting your work</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>More on the topics covered</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>Historic Notes</title>
+            <p>U.C.</p>
+            </section>
+        </chapter>
+
+        <chapter xml:id="LAB7">
+            <title>LAB 7</title>
+            <abstract>
+                <p>Welcome to <alert>Lab 7</alert> of the Linear Algebra Computer Laboratory course. Below are a few resources to look at in order to start and complete this lab. </p>
+            </abstract>
+            <section>
+            <title>Notes and Objectives</title>
+            <abstract>
+                <image source="image/lab7/section_7_1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Starting Your Work</title>
+            <abstract>
+                <image source="image/lab7/section_7_2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Background Reading: Introduction and Origin of Inconsistent Systems</title>
+            <abstract>
+                <image source="image/lab7/section_7_3.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab7/section_7_3.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Example</title>
+            <abstract>
+                <image source="image/lab7/section_7_4.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Background Reading: Minimizing Ax-b</title>
+            <abstract>
+                <image source="image/lab7/section_7_5.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Orthogonal Projection of b onto W</title>
+            <abstract>
+                <image source="image/lab7/section_7_6.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Background Reading: Least Square Lines and Example (2)</title>
+            <abstract>
+                <image source="image/lab7/section_7_7.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Example (3)</title>
+            <abstract>
+                <image source="image/lab7/section_7_8.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Exercises: Problem</title>
+            <abstract>
+                <image source="image/lab7/section_7_9.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab7/section_7_9.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab7/section_7_9.3.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Exercises: Problem (2)</title>
+            <abstract>
+                <image source="image/lab7/section_7_10.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Exercises: Problem (3)</title>
+            <abstract>
+                <image source="image/lab7/section_7_11.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Exercises: Problem (4)</title>
+            <abstract>
+                <image source="image/lab7/section_7_12.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab7/section_7_12.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab7/section_7_12.3.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab7/section_7_12.4.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Saving, Editing and Submitting your work</title>
+            <abstract>
+                <image source="image/lab7/section_7_13.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+        </chapter>
+
+        <chapter xml:id="LAB8">
+            <title>LAB 8</title>
+            <abstract>
+                <p>Welcome to <alert>Lab 8</alert> of the Linear Algebra Computer Laboratory course. Below are a few resources to look at in order to start and complete this lab. </p>
+            </abstract>
+            <section>
+            <title>Notes and Objectives</title>
+            <abstract>
+                <image source="image/lab8/section_8_1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Starting Your Work</title>
+            <abstract>
+                <image source="image/lab8/section_8_2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Background Reading: Introduction to Determinants</title>
+            <abstract>
+                <image source="image/lab8/section_8_3.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab8/section_8_3.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Explore What Happens to the Determinant of a Matrix A when you Perform Row Operation on A</title>
+            <abstract>
+                <image source="image/lab8/section_8_4.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab8/section_8_4.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Do the Following Exercises</title>
+            <abstract>
+                <image source="image/lab8/section_8_5.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>What Happens to det(D) when a Row of D is Multiplied by a Number (Scalar)?</title>
+            <abstract>
+                <image source="image/lab8/section_8_6.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Do the following exercises (4.3)</title>
+            <abstract>
+                <image source="image/lab8/section_8_7.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Adding a Multiple of the i^th row to the j^ith row</title>
+            <abstract>
+                <image source="image/lab8/section_8_8.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Exercises: Problem</title>
+            <abstract>
+                <image source="image/lab8/section_8_9.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Explore What is the Determinant of FG, and H^n</title>
+            <abstract>
+                <image source="image/lab8/section_8_10.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Explore What is the Determinant of kA</title>
+            <abstract>
+                <image source="image/lab8/section_8_11.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Explore What is the Determinant of AB, and A^-1</title>
+            <abstract>
+                <image source="image/lab8/section_8_12.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Explore Determinant of A+B, and A-B</title>
+            <abstract>
+                <image source="image/lab8/section_8_13.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Explore Determinant of A</title>
+            <abstract>
+                <image source="image/lab8/section_8_14.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Saving, Editing and Submitting your work</title>
+            <abstract>
+                <image source="image/lab8/section_8_15.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+        </chapter>
+
+        <chapter xml:id="LAB9">
+            <title>LAB 9</title>
+            <abstract>
+                <p>Welcome to <alert>Lab 9</alert> of the Linear Algebra Computer Laboratory course. Below are a few resources to look at in order to start and complete this lab. </p>
+            </abstract>
+            <section>
+            <title>Notes and Objectives</title>
+            <abstract>
+                <image source="image/lab9/section_9_1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Starting Your Work</title>
+            <abstract>
+                <image source="image/lab9/section_9_2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Examples</title>
+            <abstract>
+                <image source="image/lab9/section_9_3.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Examples (2)</title>
+            <abstract>
+                <image source="image/lab9/section_9_4.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Definitions</title>
+            <abstract>
+                <image source="image/lab9/section_9_5.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>An Application</title>
+            <abstract>
+                <image source="image/lab9/section_9_6.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>How to find Eigenvalues and Eigenvectors Using MATLAB</title>
+            <abstract>
+                <image source="image/lab9/section_9_7.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>How to find Eigenvalues and Eigenvectors Using MATLAB (cont.)</title>
+            <abstract>
+                <image source="image/lab9/section_9_8.1.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab9/section_9_8.2.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab9/section_9_8.3.png" width="100%">
+                <description>Instruction</description>
+                </image>
+                <image source="image/lab9/section_9_8.4.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+            <section>
+            <title>Saving, Editing and Submitting your work</title>
+            <abstract>
+                <image source="image/lab9/section_9_9.png" width="100%">
+                <description>Instruction</description>
+                </image>
+            </abstract>
+            </section>
+        </chapter>
+
+        <chapter xml:id="LAB10">
+            <title>LAB 10 (Extra Credit)</title>
+            <abstract>
+                <p>Welcome to <alert>Lab 10</alert> of the Linear Algebra Computer Laboratory course. Below are a few resources to look at in order to start and complete this lab. </p>
+            </abstract>
+            <section>
+            <title>Notes</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>Content and Objectives</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>Starting LAB</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>Instruction</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>Saving, Editing and Submitting your work</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>More on the topics covered</title>
+            <p>U.C.</p>
+            </section>
+            <section>
+            <title>Historic Notes</title>
+            <p>U.C.</p>
+            </section>
+        </chapter>
+                <preface>
+        <title>Due Dates</title>
+        <p>Now</p>
+        </preface>
+        
+        <preface>
+            <title>Grades</title>
+            <p>Now</p>
+        </preface>
+
+        <preface>
+        <title>How to Access Graded Assignments</title>
+        <p>Now</p>
+        </preface>
+
+        <preface>
+        <title>Late Enrollment</title>
+        <p>Now</p>
+        </preface>
+
+        <preface>
+        <title>Resources</title>
+        <p>Now</p>
+        </preface>
+        
+    </book>
+</pretext>

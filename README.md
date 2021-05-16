@@ -1,43 +1,20 @@
-PreTeXt
-=======
+The PreTeXt Guide
+=================
 
-An uncomplicated XML vocabulary for authors of research articles, textbooks, and monographs.
+PDF and HTML versions of this guide are available at the [PreTeXt](https://pretextbook.org) site in the Documentation area.
 
-GPL License.
+If you wish to build from source, possibly as part of contributing improvements, follow these steps:
 
-*Be sure* to checkout the dev branch, master is currently a fiction.
+1.  To build LaTeX for input to `pdflatex`:
+        cd /path/to/mathbook
+        xsltproc -xinclude -o guide.tex xsl/pretext-latex.xsl doc/guide/guide.xml
+1.  And for HTML output:
+        cd /path/to/mathbook
+        xsltproc -xinclude xsl/pretext-html.xsl doc/guide/guide.xml
+1.  You might prefer to set your default directory to someplace outside the PreTeXt distribution and include full paths to the XSL and XML files in the `xsltproc` command, so your output is not mixed in with your source.
+1.  Note, we do not include directions here for the multiple steps necessary to have the WeBWorK examples built correctly.  You will get an error message, but the rest of your ouput should not be affected.
 
-Quickstart instructions at project website:  [pretextbook.org](https://pretextbook.org)
-
-Help and development discussions:
-* Support forum/mailing-list: [pretext-support](https://groups.google.com/forum/#!forum/pretext-support)
-* Announcements only, low-volume: [pretext-announce](https://groups.google.com/forum/#!forum/pretext-announce)
-
-
-PreTeXt is guided by the following principles:
-----------------------------------------------
-1. PreTeXt is a markup language that captures the structure of
-textbooks and research papers.
-2. PreTeXt is human-readable and human-writable.
-3. PreTeXt documents serve as a single source which can be
-easily converted to multiple other formats, current and future.
-4. PreTeXt respects the good design practices which have been
-developed over the past centuries.
-5. PreTeXt makes it easy for authors to implement features which
-are both common and reasonable.
-6. PreTeXt supports online documents which make use of the full
-capabilities of the Web.
-7. PreTeXt output is styled by selecting from a list of available
-templates, relieving the author of the burden involved
-in micromanaging the output format.
-8. PreTeXt is free: the software is available at no cost, with an
-open license. The use of PreTeXt does not impose any constraints
-on documents prepared with the system.
-9. PreTeXt is not a closed system: documents can be converted to
-LaTeX and then developed using standard LaTeX tools.
-10. PreTeXt recognizes that scholarly documents involve the
-interaction of authors, publishers, scholars, instructors,
-students, and readers, with each group having its own needs
-and goals.
-11. PreTeXt recognizes the inherent value in producing material
-that is accessible to everyone.
+If you are contributing new material, note that there are three important elements in use.  Please make use of them in your contribution.
+* `tag` - for element names
+* `tage` - for names of empty elements
+* `attribute` - for names of attributes
